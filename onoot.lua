@@ -1,3 +1,5 @@
+-- Created by yours truly sir.wiggles
+
 local function OnLootItem(event, player, item, count)
     -- Check if the looted item is a weapon (ClassID = 2, Subclass determines the type)
     if item:GetClass() == 2 then
